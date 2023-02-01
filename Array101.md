@@ -1,6 +1,6 @@
 
 # 485. Max Consecutive Ones 
-### 23/02/01/Wed
+##### 23/02/01/Wed
 
 ### [Solution1: using conditional statements]
 
