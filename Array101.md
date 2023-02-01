@@ -39,5 +39,11 @@ class Solution {
   
   int count = 0, maxcount = 0;
   for (int n : nums)
-    maxcount
+    maxcount = Math.max(maxcount, count = n == 0 ? 0 : count + 1);
+    
+   return maxcount;
+   
+}
+```
 
+: 삼항연산자를 써서 maxcount, count 중 더 큰 값을 반환하는 코드가 됨.
