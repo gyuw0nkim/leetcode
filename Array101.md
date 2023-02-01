@@ -50,4 +50,4 @@ class Solution {
 }
 ```
 
-: 삼항연산자를 써서 maxcount, count 중 더 큰 값을 반환하는 코드가 됨.
+: 삼항연산자(조건문?참:거짓의 형태)를 써서 maxcount, count 중 더 큰 값을 반환하는 코드가 됨. 
