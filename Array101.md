@@ -25,4 +25,5 @@ class Solution {
       
    }
 }
-  
+
+: count 와 maxcount 변수를 두고, 1이 나올때마다 count도 계속 1씩 더해줌. 그리고 maxcount 값을 count 값으로 
