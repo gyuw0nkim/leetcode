@@ -69,7 +69,7 @@ Explanation:
 Therefore only 12 and 7896 contain an even number of digits.  
 
 
-### [Solution1:
+### [Solution1: using String.valueOf]
 
 ```java
 
@@ -85,4 +85,8 @@ class Solution {
 }
 ```
 
-- Question 1: where did for(int num : nums) came from? because yesterday it was for(int n : nums) and what's the difference between num and n ? i didn't do variable declaration for both(n, num) but how can i use it 
+- Question 1: where did for(int num : nums) came from? because yesterday it was for(int n : nums) and what's the difference between num and n ? i didn't do variable declaration for both(n, num) but how can i use it MUDDED  
+- Question 2: why there is () after length()
+: length와 length()는 쓰임이 다르다. length는 길이를 반환했을 때 data type이 array 형태이고, length()는 string object의 형태이다. ??>??????????????WTF 
+
+### [Solution2: using String.valueOf]
