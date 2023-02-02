@@ -51,3 +51,38 @@ class Solution {
 ```
 
 : 삼항연산자(조건문?참:거짓의 형태)를 써서 maxcount, count 중 더 큰 값을 반환하는 코드가 됨. 
+
+
+
+
+# 1295. Max Consecutive Ones 
+##### 23/02/02/Thu
+
+Input: nums = [12,345,2,6,7896]  
+Output: 2  
+Explanation:   
+12 contains 2 digits (even number of digits).  
+345 contains 3 digits (odd number of digits).  
+2 contains 1 digit (odd number of digits).  
+6 contains 1 digit (odd number of digits).  
+7896 contains 4 digits (even number of digits).  
+Therefore only 12 and 7896 contain an even number of digits.  
+
+
+### [Solution1:
+
+```java
+
+class Solution {
+  public int findNumbers(int[] nums {
+    int count = 0;
+    for(int num : nums){
+      if (String.valueOf(num).length() % 2 == 0)
+        count++;
+    }
+ return count; 
+  }
+}
+```
+
+- Question 1: where did for(int num : nums) came from? because yesterday it was for(int n : nums) and what's the difference between num and n ? i didn't do variable declaration for both(n, num) but how can i use it 
