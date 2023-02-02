@@ -60,6 +60,7 @@ class Solution {
 # 1295. Max Consecutive Ones 
 ##### 23/02/02/Thu
 
+```  
 Input: nums = [12,345,2,6,7896]  
 Output: 2  
 Explanation:   
@@ -69,6 +70,7 @@ Explanation:
 6 contains 1 digit (odd number of digits).  
 7896 contains 4 digits (even number of digits).  
 Therefore only 12 and 7896 contain an even number of digits.  
+```  
 
 
 ### [Solution1: using String.valueOf]
@@ -91,4 +93,4 @@ class Solution {
 - Question 2: why there is () after length() ? what is the difference between length and length()
 : length와 length()는 쓰임이 다르다. length는 길이를 반환했을 때 data type이 array 형태이고, length()는 string object의 형태이다. ??>??????????????WTF 
 
-### [Solution2: using String.valueOf]
+### [Solution2: ㅋ]
