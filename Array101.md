@@ -85,11 +85,7 @@ class Solution {
 }
 ```
 
-- Question 1: where did for(int num : nums) came from? because yesterday it was for(int n : nums) and what's the difference between num and n ? i didn't do variable declaration for both(n, num) but how can i use it MUDDED  
-: int 를 이용해서 for문 안에서 바로 변수선언을 하기 때문에 n으로 쓰든 num으로 쓰든 banana로 쓰든 상관이 없다. 
 
-- Question 2: why there is () after length() ? what is the difference between length and length()
-: length와 length()는 쓰임이 다르다. length는 길이를 반환했을 때 data type이 array 형태이고, length()는 string object의 형태이다. 그냥 반환하는 데이터 형태가 달라서 그런 듯?
 
 
 
