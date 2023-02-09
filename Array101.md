@@ -115,7 +115,7 @@ After sorting, it becomes [0,1,9,16,100].
 ```  
 
 
-### [Solution1: ]
+### [Solution1: 그냥 제곱한 다음에 sorted로 정렬. 근데 나중에 디스커션을 보니까 이 값은 초기 입력값을 아예 새로운 값으로 대체하는거라 별로 좋지 않은 풀이라고 하는데.... 그래서 뭐 포인터를 쓰던데.... 그거까지 잘 모르겠슴....]
 
 ```Python
 class Solution(object):
@@ -132,4 +132,26 @@ class Solution(object):
 
 
 
+# 1089. Duplicate Zeros
+##### 23/02/09/Thu
 
+```  
+Given a fixed-length integer array arr, duplicate each occurrence of zero, shifting the remaining elements to the right.
+
+Note that elements beyond the length of the original array are not written. Do the above modifications to the input array in place and do not return anything.
+
+Input: arr = [1,0,2,3,0,4,5,0]
+Output: [1,0,0,2,3,0,0,4]
+Explanation: After calling your function, the input array is modified to: [1,0,0,2,3,0,0,4]
+
+Input: arr = [1,2,3]
+Output: [1,2,3]
+Explanation: After calling your function, the input array is modified to: [1,2,3]
+```  
+
+### [Solution1: ]
+
+```python
+
+
+```
