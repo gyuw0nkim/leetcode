@@ -153,5 +153,15 @@ Explanation: After calling your function, the input array is modified to: [1,2,3
 
 ```python
 
+n = len(arr)
+i = 0
 
+  while(i < n):
+    if(arr[i] == 0):
+      arr.insert(i+1, 0)
+      i += 2
+    
+    else:
+      i += 1
+    
 ```
