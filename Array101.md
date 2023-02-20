@@ -203,6 +203,25 @@ The result of the merge is [1].
 Note that because m = 0, there are no elements in nums1. The 0 is only there to ensure the merge result can fit in nums1.
 ```  
 
-### [Solution]
+### [Solution1: list comprehension]
 
 ```python
+
+for i in range(n):
+  nums1[m+i] = nums2[i]
+nums1.sort()
+
+``` 
+
+### [Solution2: index 사용]
+
+모르겠다 십발
+1번처럼 하면 개 쉬운데 왜 꼭 인덱스를 써야되는걸까? 왜 와이. 너무 열받는다.
+
+뒤에서부터 넣으면 앞에 정보가 없어질 염려를 하지 않아도 된다. 
+
+```python
+
+idx, idx1, idx2 = 
+
+``` 
