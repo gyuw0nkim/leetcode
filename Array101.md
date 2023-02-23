@@ -168,7 +168,7 @@ while(i < n):
 ```
 
 
-# 88. Merge Sorted Array
+# 88. Merge Sorted Array  ---> 이거 잘 모르겠음 아직
 ##### 23/02/14/Tue
 
 ```  
@@ -220,8 +220,4 @@ nums1.sort()
 
 뒤에서부터 넣으면 앞에 정보가 없어질 염려를 하지 않아도 된다. 
 
-```python
-
-idx, idx1, idx2 = 
-
-``` 
+![image](https://user-images.githubusercontent.com/124178101/220979020-abd1fc25-9755-4684-9d9b-31b560a6c8cf.png)
